@@ -59,3 +59,4 @@ var isTooLong = username.length <= 20
 var isTooLong = username.length > 20
 sample.substring(sample.indexOf('C'), 12)
 //homework is stacked to include re work of previous lesson per instructions
+//need assistance commiting FCC html work
