@@ -1,31 +1,95 @@
 "use strict";
 console.log("working")
-/* ########################################################################## */
+// /* ########################################################################## */
+//
+//
+// var username = prompt("Please enter your username").toLowerCase();
+// var password = prompt("Please enter your password").toLowerCase();
+//
+// var currUsername = "username"
+// var currPassword = "password"
+//
+// if(username === currUsername && password === currPassword){
+//     alert('you have logged in')
+// }else if(username == currUsername && password) {
+//     alert("invalid username")
+// }else if(password == currPassword && username){
+//     alert("invalid password")
+// }
+// else{
+//     alert("unexpected error");
+// }
+// var message;
+//
+// if (success) {
+//     message = "Operation was successful.";
+// } else {
+//     message = "Oops, something went wrong.";
+// }
+// function applyDiscount(price, discount){
+//     return console.log(price - (price * discount));
+//
+// }
+// applyDiscount(45.99,0.12);
+
+/*var color = prompt("What is your favorite color?");
 
 
-var username = prompt("Please enter your username").toLowerCase();
-var password = prompt("Please enter your password").toLowerCase();
-
-var currUsername = "username"
-var currPassword = "password"
-
-if(username === currUsername && password === currPassword){
-    alert('you have logged in')
-}else if(username == currUsername && password) {
-    alert("invalid username")
-}else if(password == currPassword && username){
-    alert("invalid password")
+function analyzeColor(colorName) {
+    return console.log(colorName);
 }
-else{
-    alert("unexpected error");
+analyzeColor(color);
+if (color === "blue"){
+    alert("Awesome! Blue is my favorite color too!");
 }
-var message;
+    else if(color === "green")
+    {
+        alert("Awesome! Green is my favorite color too!");
+    }
+    else if(color === "red")
+    {
+        alert("Awesome! Red is my favorite color too!");
+    }
+    else if(color === "yellow")
+    {
+        alert("Awesome! Yellow is my favorite color too!");
+    }
+    else if(color === "unknown" )
+    {
+        alert("Hmm. I'm unfamiliar with that color!");
+    }*/
+switch (randomColor) {
+    case "blue":
+        console.log('${randomColor} is the color of the ocean');
+        break;
+    case "yellow":
+        console.log('${randomColor} yellow is the color of the sun');
+    default "unknown":
+        console.log('{randomColor} I am unfamiliar with that color);
 
-if (success) {
-    message = "Operation was successful.";
-} else {
-    message = "Oops, something went wrong.";
 }
+
+function sayHello(name){
+    return "hello " + name
+}
+var sentence = sayJello("jordy");
+console.log(sentence + " have a nice day");
+
+var useColor = prompt("What is your favorite color?").toLowerCase();
+
+function analyzeColor(color){
+    switch (color) {
+        case "red":
+            return "apples are red";
+        case "blue":
+            return "The sky is blue";
+        default:
+            return "your color is alright";
+    }
+            alert(analyzeColor(useColor))
+}
+
+
 /**
  * TODO:
  * Create a function named `analyzeColor` that accepts a string that is a color
@@ -53,6 +117,8 @@ if (success) {
 //                  will contain a different color every time the page loads)
 var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 var randomColor = colors[Math.floor(Math.random() * colors.length)];
+
+
 /**
  * TODO:
  * Pass the `randomColor` variable to your 'analyzeColor' function and console.log the results.
@@ -92,7 +158,17 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
  * Test your function by passing it various values and checking for the expected
  * return value.
  */
+function  calculateTotall1(luckyNum, total) {
+    switch (luckyNum {
+        case 0: return total;
+        case 1: return total - (total * 0.10)
+        case 2: return total - (total * 0.25)
+        case 3: return total - (total * 0.35)
+        case 4: return total - (total * 0.50)
+        case 4: return 'Free';
 
+    })
+}
 /**
  * TODO:
  * Uncomment the line below to generate a random number between 0 and 5.
@@ -102,8 +178,8 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
  * price before the discount was, and what their price after the discount is.
  */
 // Generate a random number between 0 and 6
-// var luckyNumber = Math.floor(Math.random() * 6);
-
+ var luckyNumber = Math.floor(Math.random() * 6);
+ let totalBill = Number(prompt("Please enter your total bill amount"))
 /**
  * TODO:
  * Write some JavaScript that uses a `confirm` dialog to ask the user if they
@@ -122,3 +198,36 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
  * Can you refactor your code to use functions?
  * HINT: The way we prompt for a value could be improved
  */
+
+// 1. make a confirm that asks if a user would like to input a number
+// 2. assign confirm in a variable that will be a boolean
+// 3. if confirm variable is true then prompt a user for a number and store it in a variable
+// 4. evaluate and then create an alert - whether the number is even or odd
+//                                      - what the number plus 100 is and return that value
+//                                      - if the number is negative or positive and return that value
+// 5. if user input is not a number then inform that input is not a number
+// 6. -use is NaN
+// 7. refactor code to use functions
+
+let isTrue = confirm("Would you like to provide a number?");
+if(isTrue === true) {
+    var thatNumber = prompt("What's the number");
+    if(isNan(thatNumber)) {
+        alert("This is not a number");
+    }else {
+    if (thatNumber % 2 === 0) {
+        alert("That number is even");
+    }else if(thatNumber % 2 !== 0) {
+        alert("That number is odd");
+    }
+    let newNum = (thatNumber) + 100;
+    alert('${thatNumber} + 100 = ${newNum}')
+    if(thatNumber < 0) {
+        alert('That is a negative number ${thatNumber}');
+    }else if(thatNumber > 0) {
+        alert("This number is positive")
+    }
+
+    }
+
+}
