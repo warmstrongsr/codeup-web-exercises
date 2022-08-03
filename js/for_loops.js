@@ -37,11 +37,40 @@
 //         // nothing after the break will get processed
 //         console.log('You will never see this line.');
 //     }
+// }
+// function showMultiplicationTable(7)
+// for (var x = 7; x < 11 )
+// //
+//     let showMultiplicationTable = () => {
+//     let num = Math.floor (x:(Math.random() * 10) +1)
+//         for (let i = 1; i <=10; i++) {
+//             let product = num * 1;
+//             console.log (`${num} * ${i} = ${prod}`)
+//             //console.log(num + " * " + i + " = " + prod)
+//         }
+//     }
+
+// function showMultiplicationTable(num){
+//     for(let i = 1; i <= 100; i++){
+//         console.log(num + " x " + i + " = " + (num * i))
+//     }
+// }
+// showMultiplicationTable(10);
+// //created function name and created multiplication table
+// for (let i = 1; i < 11; 1++) {
+//     let randomNumber = Math.floor(math.random() * 180) + 20;
+//     (randomNumber % 2 --- 0) ? console.log(i + ": " + randomNumber + " is odd." );
 }
-function showMultiplicationTable(7)
-for (var x = 7; x < 11 )
-//
-//
-//
-//
-//
+
+for(var i = 1; i <= 10; i++){
+    var random = Math.floor(math.random() * 180) + 20;
+    if(random % 2 === 0){
+        console.log(`${random} is even`)
+    }
+}
+
+4.
+
+for (var i= 1; i <= 10; i++){
+    var random = Math.floor
+}
