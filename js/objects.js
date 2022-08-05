@@ -92,3 +92,36 @@
      */
 
 })();
+
+// function isOdd(num) { return num % 2;}
+// console.log("1 is " + isOdd(1));
+// console.log("2 is " + isOdd(2));
+// console.log("3 is " + isOdd(3));
+// console.log("4 is " + isOdd(4));
+//
+// // program to check pass or fail
+//
+// let marks = prompt('Enter your marks :');
+//
+// // check the condition
+// let result = (marks >= 40) ? 'pass' : 'fail';
+//
+// console.log(`You ${result} the exam.`);
+//
+// console.log(person.name); // Will
+const person = {
+    name: 'Adam',
+    age: 30,
+    // using function as a value
+    greet: function greet() { console.log(person.age) }
+}
+
+console.log (person.age); // hello
+console.log (person.name)
+
+function greet() {
+
+}
+
+console.log (greet)
+// push
