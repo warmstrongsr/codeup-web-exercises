@@ -124,4 +124,4 @@ function greet() {
 }
 
 console.log (greet)
-// push
+// pushing for commit.  most work done on pre assessment
