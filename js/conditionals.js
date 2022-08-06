@@ -169,6 +169,32 @@ function  calculateTotall1(luckyNum, total) {
 
     })
 }
+function calculateTotal(luckyNum, total){
+    var discount;
+    var discountedPrice;
+    if(luckyNum === 1){
+        discount = .10;
+        discountedPrice = discount * total;
+        return discountedPrice;
+    }else if(luckyNum === 2){
+        discount = .25;
+        discountedPrice = discount * total;
+        return discountedPrice;
+    }else if(luckyNum === 3){
+        discount = .35;
+        discountedPrice = discount * total;
+        return discountedPrice;
+    }else if(luckyNum === 4){
+        discount = .50;
+        discountedPrice = discount * total;
+        return discountedPrice;
+    }else if(luckyNum === 5){
+        return total = 0;
+    }else{
+        return total;
+    }
+}
+console.log(calculateTotal(5, 100))
 /**
  * TODO:
  * Uncomment the line below to generate a random number between 0 and 5.
@@ -180,6 +206,11 @@ function  calculateTotall1(luckyNum, total) {
 // Generate a random number between 0 and 6
  var luckyNumber = Math.floor(Math.random() * 6);
  let totalBill = Number(prompt("Please enter your total bill amount"))
+
+ var luckyNumber = Math.floor(Math.random() * 6);
+ var total = prompt("what was your total bill?");
+ console.log(calculateTotal(luckyNumber, total));
+
 /**
  * TODO:
  * Write some JavaScript that uses a `confirm` dialog to ask the user if they
