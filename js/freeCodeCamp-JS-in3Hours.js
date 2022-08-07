@@ -83,7 +83,6 @@ console.log(myStr);
 // Example
 var firstName = "Adam";
 var lastLetterOfLastName = firstName[1];
-var lastLetterOfLastName = firstName[1];
 
 // Setup
 var lastName = "Lovelace";
@@ -91,10 +90,38 @@ var lastName = "Lovelace";
 var thirdLetterOfLastName = lastName[2];
 console.log(thirdLetterOfLastName);
 
+var firstName = "Adam"
+var lastLetterOfFirstName = firstName[firstName.length - 1];
+console.log(lastLetterOfFirstName);
 
-console.log(myStr);
+var firstName = "Adam"
+var lastLetterOfFirstName = firstName[firstName.length - 1];
+console.log(lastLetterOfFirstName);
 
+// Care to play a game?
 
+function wordBlanks(myNoun, myAdj, myVerb, myAdverb) {
+    var result = "";
+    result += "The " + myAdj + " " + myNoun + myVerb + " to the store " + myAdverb  
+    return result;
+}
+console.log(wordBlanks("cat", "big", " ran", "quickly"));
+
+function wordBlanks2(myNoun, myAdj, myVerb, myAdverb) {
+    var result = "";
+    result = "The " + myAdj + " " + myNoun + " is " + myVerb + " " + myAdverb + " to the place.";
+    return result;
+}
+console.log(wordBlanks2("big", "man", "running", "quickly"));
+
+// Just nailed this function with no assist.  Probably time for bed.
+
+//Arrays with arrays in an array
+var ourArray = ["John", 23, 46, ["marvel", 42], 78965, "William", "Adbignail", "Alonzo", "Tortez", ["lol", "kek", "LUL", "LOL", "LAWL"]];
+
+var hisArray = ["Thomas", "Jet", "lames", "&", "Lamas"];
+
+var Notanarrataski = ["dome", 7845, .093, -45, ["yellow", "green", "blue", "hazed", 123, 456, 789]];
 
 
 
