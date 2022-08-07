@@ -57,10 +57,44 @@ lastNameLength = lastName.length;
 
 console.log(lastName);
 console.log(lastNameLength);
+console.log(ourStr)
+// Setup
+
+var firstLetterOfLastName = "";
+var lastName = "Lovelace";
+firstLetterOfLastName = lastName[0];
+console.log(firstLetterOfLastName);
+
+
+// Setup
+var fourthLetterOfLastName = "";
+var lastName = "Lovelace";
+fourthLetterOfLastName = lastName[4];
+console.log(fourthLetterOfLastName);
+
+// Setup
+var myStr = "Jello World";
+
+// Only change code below this line - Immutability example
+
+myStr = "Hello World";
+console.log(myStr);
+
+// Example
+var firstName = "Adam";
+var lastLetterOfLastName = firstName[1];
+var lastLetterOfLastName = firstName[1];
+
+// Setup
+var lastName = "Lovelace";
+// Break
+var thirdLetterOfLastName = lastName[2];
+console.log(thirdLetterOfLastName);
+
 
 console.log(myStr);
-console.log(myStr);
-console.log(myStr);
+
+
 
 
 
