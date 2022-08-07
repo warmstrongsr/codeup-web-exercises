@@ -123,5 +123,36 @@ var hisArray = ["Thomas", "Jet", "lames", "&", "Lamas"];
 
 var Notanarrataski = ["dome", 7845, .093, -45, ["yellow", "green", "blue", "hazed", 123, 456, 789]];
 
+var ourArray = [18,64,99];
+ourArray[1] = 45;//ourArray now equals [18,45,99].
+
+//Setup
+var myArray = [18,64,99];
+
+myArray[0] = 50; //myArray should now be [50,64,99]
+
+console.log(myArray);
+console.log(ourArray);
+
+// Declare your variable here.
+var myGlobal = 10;
+
+function fun1() {
+    // Assign 5 to oopsGlobal Here
+}
+
+function fun2() {
+    var output = "";
+    if (typeof myGlobal != "undefined") {
+        output += "myGlobal: " + myGlobal;
+    }
+    if (typeof oopsGlobal != "undefined") {
+        output += " oopsGlobal: " + oopsGlobal;
+    }
+    console.log(output);
+}
+fun1();
+fun2();
+
 
 
