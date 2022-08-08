@@ -11,7 +11,15 @@
      *  > console.log(person.firstName) // "Rick"
      *  > console.log(person.lastName) // "Sanchez"
      */
+    // var person = new Object()
 
+    var person = {
+        firstName: `Will`,
+        lastName: 'Armstrong'
+
+        };
+    console.log(person.firstName)
+    console.log(person.lastName)
     /**
      * TODO:
      * Add a sayHello method to the person object that returns a greeting using
@@ -21,7 +29,10 @@
      * Example
      * > console.log(person.sayHello()) // "Hello from Rick Sanchez!"
      */
-
+    person.sayHello = function () {
+        return `Hello from Will ${person.firstName} ${person.lastName}!`
+    }
+    console.log(person.sayHello());
     /** TODO:
      * HEB has an offer for the shoppers that buy products amounting to
      * more than $200. If a shopper spends more than $200, they get a 12%
@@ -35,12 +46,37 @@
      * represents one shopper. Use a foreach loop to iterate through the array,
      * and console.log the relevant messages for each person
      */
+    //Key points
+        //1. HEB has an offer for those who spend $200+
+        //2. That offer is that they get 12% off
+    // personal TODO
+        //1. Use for each to iterate through shoppers
+        //2. Display current total
+        //3. Display the proper console.logs (Write a conditional with the following:
+            //1. If shopper amount is > $200 apply and show discount
+            //2. If shopper amount is < $200 then return a message of "no discount to be found"
 
-    // var shoppers = [
-    //     {name: 'Cameron', amount: 180},
-    //     {name: 'Ryan', amount: 250},
-    //     {name: 'George', amount: 320}
-    // ];
+
+    var shoppers = [
+        {name: 'Cameron', amount: 180},
+        {name: 'Ryan', amount: 250},
+        {name: 'George', amount: 320}
+    ];
+    shoppers.forEach(function (shopper) {
+        console.log(shopper.amount)
+        if (shopper.amount > 200) {
+            var discountAmount = shopper.amount * .12;
+            console.log(`your discount is ${discountAmount}`);
+            var newTotal = shopper.amount - discountAmount;
+            console.log(`Your new total is ${newTotal}`);
+
+            //**short way**
+            //shopper.amount * .88
+
+             }else {
+            console.log("no discount to be found")
+        }
+    })
 
     /** TODO:
      * Create an array of objects that represent books and store it in a
@@ -54,7 +90,35 @@
      * > console.log(books[0].author.firstName) // "Douglas"
      * > console.log(books[0].author.lastName) // "Adams"
      */
+var books = [
+        {title: "The best laid plans",
+             author:
+                {firstName: "Sidney",
+                lastName: "Sheldon"}
+    },  {title: "Berserk",
+                author: {
+                firstName: "Kentaru",
+                lastName: "Miura"}},
+        {title: "Beck",
+                 author: {
+                firstName: "Kentaru",
+                lastName: "Miura"}},
+        {title: "Blame",
+                 author: {
+                firstName: "Taz",
+                lastName: "Washington"}},
+        {title: "Bourgeois",
+                 author: {
+                firstName: "Erica",
+                lastName: "Bates"}},
+        {title: "Barbie",
+                author: {
+                firstName: "Ken",
+                lastName: "Doll"}
+        }
 
+    ]
+    console.log(books);
     /**
      * TODO:
      * Loop through the books array and output the following information about
@@ -79,7 +143,13 @@
      *      ---
      *      ...
      */
+    books.forEach(function (book, index) {
 
+
+        console.log(`Book # ${index + 1}`)
+        console.log(`Title: ${book.title}`)
+        console.log(`Author: ${book.author.firstName} ${book.author.lastName}`)
+    });
     /**
      * Bonus:
      * - Create a function named `createBook` that accepts a title and author
@@ -90,7 +160,24 @@
      *   outputs the information described above. Refactor your loop to use your
      *   `showBookInfo` function.
      */
+    var books = [];
+    function createBook(title, author) {
+        var book = {
+            title: title,
+            author: author
+        }
+        books.push(book);
+        return book;
+    }
+    console.log(books);
+    console.log(createBook("myBook", "myAuthor"))
+    console.log(books);
+    console.log(createBook("cats", "doctor"))
+    console.log(books);
 
+    function showBookInfo(book){
+
+    }
 })();
 
 // function isOdd(num) { return num % 2;}
@@ -125,3 +212,5 @@ function greet() {
 
 console.log (greet)
 // pushing for commit.  most work done on pre assessment
+
+`my message `
