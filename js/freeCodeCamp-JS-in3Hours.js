@@ -1,6 +1,10 @@
 console.log ("Hello from JS")
 //I will primarily be working on understanding concatenate.
+
 // const  summer = 10 + 10;
+
+const  summer = 10 + 10;
+
 console.log(summer);
 
 var myStr = "FirstLine\n\t\SecondLine\ \nThirdLine";
@@ -102,7 +106,11 @@ console.log(lastLetterOfFirstName);
 
 function wordBlanks(myNoun, myAdj, myVerb, myAdverb) {
     var result = "";
+
     result += "The " + myAdj + " " + myNoun + myVerb + " to the store " + myAdverb
+
+    result += "The " + myAdj + " " + myNoun + myVerb + " to the store " + myAdverb  
+
     return result;
 }
 console.log(wordBlanks("cat", "big", " ran", "quickly"));
@@ -191,7 +199,11 @@ bravoFunction(10,10,10,10,10,10,10); //nailed it! moving on...
 
 var a = "I come first";
 var b = " and I come second.";
+
 console.log(a + b);
+
+console.log(a + b);
+
 
 function areaFucntion(c, d, e, f, a, b, c) {
     console.log((a + b + c) / d * 2 - 10 + e * f);
@@ -300,6 +312,7 @@ console.log("After: " + JSON.stringify(testArr));
 // console.log('fruits: ', fruits);
 // console.log("fruits: ", fruits);
 
+
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.unshift("Lemon","Pineapple");
 console.log("fruits: ", fruits);
@@ -319,6 +332,21 @@ console.log(t);
 
 
 "1" + "2"
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.unshift("Lemon","Pineapple");
+console.log("fruits: ", fruits);
+
+Math.E
+console.log(Math.E);
+console.log(Math.PI)
+console.log(Math.SQRT1_2)
+console.log(Math.random)
+console.log(Math.floor)
+console.log(Math.ceil)
+console.log(Math.pow)
+console.log(Math.random)
+console.log(Math.random)
 
 
 

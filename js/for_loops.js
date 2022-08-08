@@ -74,3 +74,12 @@ for(var i = 1; i <= 10; i++){
 for (var i= 1; i <= 10; i++){
     var random = Math.floor
 }
+//Jordy explanation and example
+for(var num = 5; num <= 100; num += 5){
+    console.log(num)
+    if(num === 50){
+        continue;
+    }
+    console.log(num + " is not 50");
+
+}

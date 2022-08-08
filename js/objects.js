@@ -211,6 +211,38 @@ function greet() {
 }
 
 console.log (greet)
+
 // pushing for commit.  most work done on pre assessment
 
 `my message `
+
+// push
+
+var dogs = [
+    {
+        breed: "german shepard",
+        color: "black",
+        sit: function (){
+        alert(`my ${this.breed} sits`)
+        }
+    },
+    {
+        breed: "great dane",
+        color: "black",
+        sit: function () {
+            alert(`my ${this.breed} sits`)
+        }
+    },
+    {
+        breed: "shitzu",
+        color: "white",
+        sit: function () {
+            alert(`my ${this.breed} sits`)
+            // alert(`my ${dogs[2].breed} sits`)
+        }
+    }
+]
+
+dogs.forEach(function (dog){
+    dog.sit();
+})
