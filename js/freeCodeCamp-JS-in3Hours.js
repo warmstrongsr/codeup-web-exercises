@@ -304,5 +304,16 @@ const fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.unshift("Lemon","Pineapple");
 console.log("fruits: ", fruits);
 
+Math.E
+console.log(Math.E);
+console.log(Math.PI)
+console.log(Math.SQRT1_2)
+console.log(Math.random)
+console.log(Math.floor)
+console.log(Math.ceil)
+console.log Math.pow
+console.log(Math.random)
+console.log(Math.random)
+
 
 
