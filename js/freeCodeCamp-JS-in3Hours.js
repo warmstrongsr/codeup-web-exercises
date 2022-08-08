@@ -259,3 +259,50 @@ function addFive() {
     sum += 5;
 }
 console.log(addFive());
+
+//Stand in line
+
+function nextInLine(arr, item) {
+    arr.push(item);
+    return arr.shift;
+}
+
+var testArr = [1,2,3,4,5];
+
+console.log("Before: " + JSON.stringify(testArr));
+console.log(nextInLine(testArr,6));
+console.log("After: " + JSON.stringify(testArr));
+
+
+function nextInLine(arr, item) {
+    arr.push(item);
+    return arr.shift();
+}
+
+var testArr = [1,2,3,4,5];
+
+console.log("Before: " + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 6));
+console.log("After: " + JSON.stringify(testArr));
+
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits.push("Kiwi", "Lemon");
+// fruits.pop();
+// console.log('fruits: ', fruits);
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// console.log(fruits);
+// fruits.pop();
+// console.log(fruits);
+// fruits.push('Cherry, Peaches, Tangerine');
+// console.log(fruits);
+// console.log('fruits: ', fruits);
+// console.log("fruits: ", fruits);
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.unshift("Lemon","Pineapple");
+console.log("fruits: ", fruits);
+
+
+
