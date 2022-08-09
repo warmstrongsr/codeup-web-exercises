@@ -3,7 +3,7 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
-console.log(getRandomInt(3. 10));
+console.log(getRandomInt(3.10));
 
 Math.E
 console.log(Math.E);
@@ -12,7 +12,7 @@ console.log(Math.SQRT1_2)
 console.log(Math.random)
 console.log(Math.floor)
 console.log(Math.ceil)
-console.log Math.pow
+console.log (Math.pow)
 console.log(Math.round)
 console.log(Math.sqrt)
 console.log(Math.floor(45.95));
