@@ -313,19 +313,19 @@ console.log("After: " + JSON.stringify(testArr));
 // console.log("fruits: ", fruits);
 
 
-var fruits = ["Banana", "Orange", "Apple", "Mango"];
-fruits.unshift("Lemon","Pineapple");
-console.log("fruits: ", fruits);
+// var fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits.unshift("Lemon","Pineapple");
+// console.log("fruits: ", fruits);
 
-var pizzaPreference = prompt("What kind of pizza do you like?");
+// var pizzaPreference = prompt("What kind of pizza do you like?");
 
-if (pizzaPreference === "pineapple and hot sauce") {
-    alert("What a coincidence, that's my favorite!");
-} else if (pizzaPreference === "cheese") {
-    alert("Just plain cheese? Okay...");
-} else {
-    alert(pizzaPreference + " isn't my favorite, but let's order some!");
-}
+// if (pizzaPreference === "pineapple and hot sauce") {
+//     alert("What a coincidence, that's my favorite!");
+// } else if (pizzaPreference === "cheese") {
+//     alert("Just plain cheese? Okay...");
+// } else {
+//     alert(pizzaPreference + " isn't my favorite, but let's order some!");
+// }
 
 var t = "1" + "2";
 console.log(t);
@@ -333,9 +333,9 @@ console.log(t);
 
 "1" + "2"
 
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
-fruits.unshift("Lemon","Pineapple");
-console.log("fruits: ", fruits);
+const fruitss = ["Banana", "Orange", "Apple", "Mango"];
+fruitss.unshift("Lemon","Pineapple");
+console.log("fruits: ", fruitss);
 
 Math.E
 console.log(Math.E);
@@ -348,5 +348,28 @@ console.log(Math.pow)
 console.log(Math.random)
 console.log(Math.random)
 
+
+
+var myGlobal = myArr = '1,2,3,4,5'S  ;
+
+function fun1() {
+    oopsGlobal = "15";
+}
+
+function fun2(arr, item, num) {
+    var output = "[arrays, tigress]";
+    if (typeof myGlobal != "undefined") {
+        output += " myGlobal: " + myGlobal;
+
+    }
+    if (typeof oopsGlobal != "undefined") {
+        output += "oopsGlobal: " + oopsGlobal;
+    }
+    else return(undefined)
+    console.log(output); wow = 12;
+}
+fun1();
+fun2();
+console.log(oopsGlobal);
 
 
