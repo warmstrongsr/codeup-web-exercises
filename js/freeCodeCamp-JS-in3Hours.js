@@ -473,4 +473,11 @@ function nextInLine(arr, item) {
     return arr.shift();
 }
 
-golfScore(5, 4);
+    golfScore(5, 4);
+
+
+    function randomRange(myMin, myMax) {
+  // Only change code below this line
+  return Math.floor(Math.random() * (myMax - myMin + 1) + myMin)
+  // Only change code above this line
+}
