@@ -441,11 +441,11 @@
     console.log(FairPlay(89));
 
 
-onst names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
+const names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
 
 function golfScore(par, strokes) {
     // Only change code below this line
-    if(strokes == 1) {
+    if (strokes == 1) {
         return names[0]
     } else if (strokes <= par - 2) {
         return names[1]
@@ -461,23 +461,24 @@ function golfScore(par, strokes) {
         return names[6]
     }
 
-var testArr = [1,2,3,4,5];
+    var testArr = [1, 2, 3, 4, 5];
 
-console.log("Before: " + JSON.stringify(testArr));
-console.log(nextInLine(testArr,6));
-console.log("After: " + JSON.stringify(testArr));
+    console.log("Before: " + JSON.stringify(testArr));
+    console.log(nextInLine(testArr, 6));
+    console.log("After: " + JSON.stringify(testArr));
 
 
-function nextInLine(arr, item) {
-    arr.push(item);
-    return arr.shift();
-}
+    function nextInLine(arr, item) {
+        arr.push(item);
+        return arr.shift();
+    }
 
     golfScore(5, 4);
 
 
     function randomRange(myMin, myMax) {
-  // Only change code below this line
-  return Math.floor(Math.random() * (myMax - myMin + 1) + myMin)
-  // Only change code above this line
+        // Only change code below this line
+        return Math.floor(Math.random() * (myMax - myMin + 1) + myMin)
+        // Only change code above this line
+    }
 }
