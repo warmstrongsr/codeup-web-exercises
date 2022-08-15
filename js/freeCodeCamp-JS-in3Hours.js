@@ -1,4 +1,4 @@
-// // // console.log ("Hello from JS")
+console.log ("Hello from JS")
 // // // // //I will primarily be working on understanding concatenate.
 // // // //
 // // // // // const  summer = 10 + 10;
@@ -542,5 +542,14 @@ const contacts = [
   
   console.log(lookUpProfile("Akira", "likes"));
 
-  var fourteen = 14 = 35;
-  console.log( fourteen);
+  var fourteen = 35;
+  console.log(fourteen);
+  console.log(fourteen);
+  console.log(fourteen);
+  console.log(fourteen);
+
+  console.log(fourteen);
+  console.log(fourteen);
+  console.log(fourteen);
+  console.log(fourteen);
+
