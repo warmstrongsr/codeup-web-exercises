@@ -482,3 +482,17 @@ function golfScore(par, strokes) {
         // Only change code above this line
     }
 }
+
+function countdown(n){
+   return n < 1 ? [] : [n].concat(countdown(n - 1));
+} // undefined
+
+console.log(countdown(5));
+// [5, 4, 3, 2, 1]
+
+function countdown(n) {
+    return n < 1 ? [] : [n, ...(countdown(n - 1))];
+}//undefined
+console.log(countdown(1));
+
+// (5) [5, 4, 3, 2, 1]
