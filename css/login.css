@@ -31,7 +31,7 @@ fieldset {
 
 .width-80 {
     /* The element with this class should be 80% of the width and it must be centered */
-    width: .80;
+    width: 80%;
     /* Read how to center elements with margin here: http://learnlayout.com/margin-auto.html*/
     margin: auto;
 }
@@ -41,7 +41,7 @@ fieldset {
     width: 100%;
 
     /* It should have a separation of .5em from elements on top of it and below it*/
-    margin: .5em;
+    margin: .05em;
 }
 
 
@@ -69,7 +69,7 @@ fieldset {
     /* There must be 4px on top of the text and below the text of an input with this class */
     padding: 4px 0;
     /* It should have a separation of .5em from elements on top of it and below it */
-    margin: .5em 0;
+    margin: .05em 0;
     /* You'll need to use the `calc` function to make the width of this element match the width of the button */
     /* See the example at: https://developer.mozilla.org/en-US/docs/Web/CSS/calc */
     /* HINT: Examples are available at: https://glitch.com/~input-button-width */
