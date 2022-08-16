@@ -520,3 +520,13 @@ for (var i = 0; i < 3; i++) {
   }
 }
 console.log(printNumTwo());
+
+function rangeOfNumbers(startNum, endNum) {
+  return startNum === endNum ?
+    [startNum]
+    : rangeOfNumbers(startNum, endNum - 1).concat(endNum);
+  
+} console.log(rangeOfNumbers(3, 10));
+
+//**** * /
+
