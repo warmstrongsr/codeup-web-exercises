@@ -1,26 +1,51 @@
 
-body {
-    margin: 0;
-    padding: 0;
-}
-nav {
+body.logo-div {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-flow: column wrap;
+    color: black;
+}
+nav {
+
+    display: flex;
     align-items: center;
     background-color: lightgrey;
+    box-sizing: border-box;
+    color: black;
+    justify-content: space-between;
+    font-family: Montserrat;
     
+}
+ul {
+    display: inline-block;
+    color: black;
+        font-family: 'Work Sans', sans-serif;
+
+
 }
 
 nav * {
     display: inline-block;
+    color: black;
+    margin: 5px;
+
 }
 
-nav p {
-    font-size: 2em;
-    font-family: "sans";
-    margin: 0 auto;
-    padding: 0.4em 0;
+div{
+    display: flex;
+    justify-content: center;
+    color: black;
+    flex-flow: row wrap;
 
-
+}
+.center-div {
+    display: inline-block;
+    color: black;
+}
+h3 {
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+    font-family: 'Montserrat', sans-serif;
 }
