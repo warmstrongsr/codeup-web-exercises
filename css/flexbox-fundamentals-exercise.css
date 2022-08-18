@@ -30,31 +30,35 @@ h2, h3 {
 
 .card {
     width: 400px;
-    height: 850px;
+    height: 800px;
     background: white;
     padding: 1em;
-    margin: 0 auto;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    /*scale: .75;*/
+
     /* enter needed declarations here */
 }
 
 section {
-    width: 100%;
-    height: 80px;
     display: flex;
-    align-items: center;
         /*/!* enter needed declarations here *!*!*/
 }
 
 section:nth-of-type(1) {
     height: 3em;
     background: lightgreen;
-    justify-content: space-between
+    justify-content: space-between;
+    align-items: center;
 
     /* enter needed declarations here */
 }
 section:nth-of-type(1) div:last-child {
     align-self: start;
-    justify-content: space-between
+    /*justify-content: space-between*/
 
     /* enter needed declarations here */
 }
@@ -63,19 +67,18 @@ section:nth-of-type(1) div:last-child {
     background: fuchsia;
     width: 3em;
     height: 1em;
-    align-self: start;
-    flex-grow: 0;
+
+    /*flex-grow: 0;*/
 }
 
 .purple-box:nth-of-type(1) {
-    align-self: start;
-    flex-grow: 4;
+    flex-grow: 2;
 
     /* enter needed declarations here */
 }
 
 .purple-box:nth-of-type(2) {
-    flex-grow: 1.7;
+    flex-grow: 1;
     /* enter needed declarations here */
 }
 
@@ -83,20 +86,17 @@ section:nth-of-type(1) div:last-child {
     width: 100%;
     background: blue;
     height: 10em;
-    /*align-self: self-start;*/
-    /*align-self: start;*/
+
 
 }
 
 section:nth-of-type(3) {
-    /*justify-content: space-between*/
-    /*justify-content: flex-start;*/
-    /* enter needed declarations here*/
+    align-items: center;
+
 }
 
 section:nth-of-type(3) h3 {
-    flex-grow: .8;
-    justify-content: flex-end;
+    flex-grow: 1;
     /* enter needed declarations here */
 
 }
@@ -106,17 +106,14 @@ section:nth-of-type(3) h3 {
     width: 2em;
     height: 2em;
     border-radius: 1em;
-    margin: auto;
-    padding: 2px;
-
-
-
+    margin: .5em;
 }
 
 .large-brown-box {
     height: 5em;
-    width: 7em;
+    width: 12em;
     background: brown;
+    flex-grow: 1;
 
     /* enter needed declarations here */
 }
@@ -141,8 +138,7 @@ section:nth-of-type(5) {
 section:nth-of-type(6) {
     background: coral;
     height: 14em;
-    align-content: space-around;
-    flex-flow: row;
+    align-content: space-between;
     flex-wrap: wrap;
     justify-content: space-around;
     /* enter needed declarations here */
