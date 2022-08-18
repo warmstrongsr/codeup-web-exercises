@@ -19,12 +19,11 @@ body {
     width: 100%;
     object-fit: cover;
 }
-
 .cover {
     height: 100vh;
     width: 100%;
     display: flex;
-    flex-flow: row nowrap;
+
     /* TODO: add a flex container to this selector */
 }
 
@@ -35,6 +34,12 @@ body {
     border-radius: 5px;
     display: flex;
     margin: auto;
+    flex-flow: row nowrap;
+    /*justify-content: space-around;*/
+
+
+
+
     /* TODO: Add an automatic margin and a flex container to this selector */
 }
 
