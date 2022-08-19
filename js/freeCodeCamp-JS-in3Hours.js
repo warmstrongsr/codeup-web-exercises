@@ -347,6 +347,8 @@ console.log(Math.ceil)
 console.log(Math.pow)
 console.log(Math.random)
 console.log(Math.random)
+console.log(Math.PI)
+
 
 
 
