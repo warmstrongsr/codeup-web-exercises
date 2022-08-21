@@ -530,5 +530,6 @@ function rangeOfNumbers(startNum, endNum) {
 
 } console.log(rangeOfNumbers(3, 10));
 
-//**** * /
+//**** * 
+    
 
