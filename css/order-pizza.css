@@ -29,6 +29,8 @@ h1 {
   right: 10px;
 }
 .container {
+  /*display: flex;*/
+  /*flex-flow: row nowrap;*/
 }
 
 .container-fluid {
@@ -37,4 +39,9 @@ h1 {
   position: absolute;
   top: 5px;
   left: 5px;
+}
+
+.form-control me-2 {
+  display: flex;
+  flex-flow: row wrap;
 }
