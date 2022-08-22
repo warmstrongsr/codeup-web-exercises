@@ -1,158 +1,158 @@
-* {box-sizing: border-box;}
-
-body {
-    margin: 0;
-    padding: 0;
-    background: lightskyblue;
-    font-family: Chalkboard, sans-serif;
+* {
+  box-sizing: border-box;
 }
 
-h1 {text-align: center;}
+body {
+  margin: 0;
+  padding: 0;
+  background: lightskyblue;
+  font-family: Chalkboard, sans-serif;
+}
 
-h2, h3 {
-    padding: 0;
-    margin: 0;
+h1 {
+  text-align: center;
+}
+
+h2,
+h3 {
+  padding: 0;
+  margin: 0;
 }
 
 .container {
-    margin: 0 auto;
-    width: 80%;
+  margin: 0 auto;
+  width: 80%;
 }
 
 .green-box {
-    background: green;
-    height: 1em;
-    width: 2em;
-
+  background: green;
+  height: 1em;
+  width: 2em;
 }
 
-.border {border: 2px solid black;}
+.border {
+  border: 2px solid black;
+}
 
 .card {
-    width: 400px;
-    height: 800px;
-    background: white;
-    padding: 1em;
-    margin: 20px auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+  width: 400px;
+  height: 800px;
+  background: white;
+  padding: 1em;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 
-    /*scale: .75;*/
+  /*scale: .75;*/
 
-    /* enter needed declarations here */
+  /* enter needed declarations here */
 }
 
 section {
-    display: flex;
-        /*/!* enter needed declarations here *!*!*/
+  display: flex;
+  /*/!* enter needed declarations here *!*!*/
 }
 
 section:nth-of-type(1) {
-    height: 3em;
-    background: lightgreen;
-    justify-content: space-between;
-    align-items: center;
+  height: 3em;
+  background: lightgreen;
+  justify-content: space-between;
+  align-items: center;
 
-    /* enter needed declarations here */
+  /* enter needed declarations here */
 }
 section:nth-of-type(1) div:last-child {
-    align-self: start;
-    /*justify-content: space-between*/
+  align-self: start;
+  /*justify-content: space-between*/
 
-    /* enter needed declarations here */
+  /* enter needed declarations here */
 }
 
 .purple-box {
-    background: fuchsia;
-    width: 3em;
-    height: 1em;
+  background: fuchsia;
+  width: 3em;
+  height: 1em;
 
-    /*flex-grow: 0;*/
+  /*flex-grow: 0;*/
 }
 
 .purple-box:nth-of-type(1) {
-    flex-grow: 2;
+  flex-grow: 2;
 
-    /* enter needed declarations here */
+  /* enter needed declarations here */
 }
 
 .purple-box:nth-of-type(2) {
-    flex-grow: 1;
-    /* enter needed declarations here */
+  flex-grow: 1;
+  /* enter needed declarations here */
 }
 
 .blue-box {
-    width: 100%;
-    background: blue;
-    height: 10em;
-
-
+  width: 100%;
+  background: blue;
+  height: 10em;
 }
 
 section:nth-of-type(3) {
-    align-items: center;
-
+  align-items: center;
 }
 
 section:nth-of-type(3) h3 {
-    flex-grow: 1;
-    /* enter needed declarations here */
-
+  flex-grow: 1;
+  /* enter needed declarations here */
 }
 
 .orange-circle {
-    background: orange;
-    width: 2em;
-    height: 2em;
-    border-radius: 1em;
-    margin: .5em;
+  background: orange;
+  width: 2em;
+  height: 2em;
+  border-radius: 1em;
+  margin: 0.5em;
 }
 
 .large-brown-box {
-    height: 5em;
-    width: 12em;
-    background: brown;
-    flex-grow: 1;
+  height: 5em;
+  width: 12em;
+  background: brown;
+  flex-grow: 1;
 
-    /* enter needed declarations here */
+  /* enter needed declarations here */
 }
 
 .large-brown-box:nth-of-type(2) {
-    margin: 0 1em;
+  margin: 0 1em;
 }
 
 section:nth-of-type(5) {
-    justify-content: space-evenly;
-    /* enter needed declarations here*/
+  justify-content: space-evenly;
+  /* enter needed declarations here*/
 }
 
 .yellow-box {
-    background: yellow;
-    width: 2em;
-    height: 2em;
-
-
+  background: yellow;
+  width: 2em;
+  height: 2em;
 }
 
 section:nth-of-type(6) {
-    background: coral;
-    height: 14em;
-    align-content: space-between;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    /* enter needed declarations here */
+  background: coral;
+  height: 14em;
+  align-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* enter needed declarations here */
 }
 
 .grey-box {
-    background: grey;
-    width: 3em;
-    height: 3em;
-    /*flex-wrap: wrap;*/
-    /*align-content: space-between;*/
-    /*align-items: flex-end;*/
+  background: grey;
+  width: 3em;
+  height: 3em;
+  /*flex-wrap: wrap;*/
+  /*align-content: space-between;*/
+  /*align-items: flex-end;*/
 }
 
 .grey-box:nth-of-type(odd) {
-    height: 4em;
+  height: 4em;
 }

@@ -8,9 +8,9 @@
  * Example
  * > sayHello("codeup") // returns "Hello, codeup!"
  */
-function sayHello(name){
-    //conslole.log( 'hello, ' + name);
-    return 'hello ' + name;
+function sayHello(name) {
+  //conslole.log( 'hello, ' + name);
+  return "hello " + name;
 }
 sayHello("Will");
 /**
@@ -21,8 +21,8 @@ sayHello("Will");
  * console.log 'helloMessage' to check your work
  */
 var helloMessage = sayHello("Will");
-console.log ( helloMessage);
-sayHello
+console.log(helloMessage);
+sayHello;
 /**
  * TODO:
  * Store your name as a string in a variable named 'myName', and pass that
@@ -30,10 +30,10 @@ sayHello
  * console.
  */
 var myName = " Will";
-sayHello ( myName);
+sayHello(myName);
 // Don't modify the following line, it generates a random number between 1 and 3
 // and stores it in a variable named random
-var random = Math.floor((Math.random() * 3) + 1);
+var random = Math.floor(Math.random() * 3 + 1);
 
 /**
  * TODO:
@@ -52,8 +52,8 @@ var random = Math.floor((Math.random() * 3) + 1);
  * different result everytime you refresh the page if you are using the random
  * number)
  */
-function isTwo(numb){
-    return numb === 2;
+function isTwo(numb) {
+  return numb === 2;
 }
 console.log(isTwo(random));
 /**
@@ -67,10 +67,10 @@ console.log(isTwo(random));
  * > calculateTip(0.25, 25.50) // returns 6.375
  * > calculateTip(0.15, 33.42) // returns 5.013
  */
-function calculateTip(tipPercentage, totalBill){
-    return (tipPercentage * totalBill);
+function calculateTip(tipPercentage, totalBill) {
+  return tipPercentage * totalBill;
 }
-console.log(calculateTip(0.20, 20));
+console.log(calculateTip(0.2, 20));
 /**
  * TODO:
  * Use prompt and alert in combination with your calculateTip function to
@@ -97,8 +97,7 @@ alert("your tip should be " + userTipResult);
  * > applyDiscount(45.99, 0.12) // 40.4712
  */
 
-function appplyDiscount(price, discount){
-    return console.log(price - (price * discount));
-
+function appplyDiscount(price, discount) {
+  return console.log(price - price * discount);
 }
-appplyDiscount(45.99,0.12);
+appplyDiscount(45.99, 0.12);

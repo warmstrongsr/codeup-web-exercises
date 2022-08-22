@@ -1,5 +1,1 @@
-
-
-function getCarTelemetty(carObj) {
-
-}
+function getCarTelemetty(carObj) {}
