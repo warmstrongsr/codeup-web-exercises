@@ -1,47 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
+.imgSignUp {
   display: flex;
-  flex-direction: column;
+  flex-flow: row-reverse wrap;
+}
+.jumbotron {
+  height: 346px;
+  background-image: url("../img/pizza.png");
+  background-size: cover;
+  background-position: 0 60%;
+  display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  overflow: hidden;
-  margin: 0;
 }
-
-h1 {
-  display: flex;
-  flex-flow: column wrap;
-  font-size: 40px;
-  font-weight: 400;
-}
-.img {
-  /*display: flex;*/
-  /*flex-flow: row wrap;*/
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
-.container {
-  /*display: flex;*/
-  /*flex-flow: row nowrap;*/
-}
-
-.container-fluid {
-  /*display: flex;*/
-  /*flex-flow: row wrap;*/
-  position: absolute;
-  top: 5px;
-  left: 5px;
-}
-
-.form-control me-2 {
-  display: flex;
-  flex-flow: row wrap;
+.display-4 {
+  text-align: center;
+  width: 100%;
+  background-color: ghostwhite;
+  opacity: 83%;
 }
