@@ -36,3 +36,9 @@ body {
   text-align: center;
   background: #000;
 }
+
+.selected_work {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
