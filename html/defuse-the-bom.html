@@ -24,8 +24,8 @@
             document.getElementById('timer').innerHTML = detonationTimer;
         }
 
-        detonationTimer--;
-        console.log('All done');
+      var interval = 1000;
+      setInterval(updateTimer, interval);
     }
 
     // TODO: When this function runs, it needs to
